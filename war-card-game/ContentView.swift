@@ -27,24 +27,23 @@ struct ContentView: View {
                 Spacer()
                 HStack {
                     Spacer()
+                    VStack {
                     Text("Player")
                         .font(.largeTitle)
                         .foregroundColor(Color.white)
+                        Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                    }
                     Spacer()
-                    Text("CPU")
-                        .font(.largeTitle)
-                        .foregroundColor(Color.white)
-                    Spacer()
-                }
-                HStack {
-                    Spacer()
-                    Text("0")
-                        .font(.largeTitle)
-                        .foregroundColor(Color.white)
-                    Spacer()
-                    Text("0")
-                        .font(.largeTitle)
-                        .foregroundColor(Color.white)
+                    VStack {
+                        Text("CPU")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                        Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                    }
                     Spacer()
                 }
                 Spacer()
